@@ -2,7 +2,7 @@
 name = "oranda"
 description = "🎁 generate beautiful landing pages for your projects"
 repository = "https://github.com/ashleygwilliams/oranda"
-version = "0.6.3"
+version = "0.6.4"
 edition = "2021"
 authors = ["Axo Developer Co. <hello@axo.dev>"]
 license = "MIT OR Apache-2.0"
@@ -86,7 +86,7 @@ lto = "thin"
 # Config for 'cargo dist'
 [workspace.metadata.dist]
 # The preferred cargo-dist version to use in CI (Cargo.toml SemVer syntax)
-cargo-dist-version = "0.11.0-prerelease.2"
+cargo-dist-version = "0.11.1"
 # CI backends to support
 ci = ["github"]
 # The installers to generate for each app
